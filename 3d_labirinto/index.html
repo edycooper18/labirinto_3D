@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Labirinto 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hud">
+        ⌨️ WASD / Setas para mover<br>
+        🖱️ Mouse para olhar<br>
+        🔁 R para reiniciar<br>
+        **Espaço para correr**<br>
+        ⏱️ Tempo: <span id="timer">0.0</span>s
+    </div>
+    <canvas id="minimap"></canvas>
+    <div id="victory">Após tanto esforço e dedicação, a vitória chegou como prova de que cada passo valeu a pena.</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.125.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.125.0/examples/js/controls/PointerLockControls.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
